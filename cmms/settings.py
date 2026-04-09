@@ -34,11 +34,12 @@ else:
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SECURE = True
  
-ALLOWED_HOSTS = ["asplevel3.ieng.tech", ".ieng.tech"]
+ALLOWED_HOSTS = ["electricalandenergyaudit.ieng.tech", ".ieng.tech"]
  
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
  
 CSRF_TRUSTED_ORIGINS = ["https://*.ieng.tech"]
+
 
 # Application definition
  
